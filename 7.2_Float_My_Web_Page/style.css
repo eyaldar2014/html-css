@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/screen_shot.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#text {
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.clr {
+  clear: both;
+}
+
+.content {
+  max-width: 50%;
+  margin: 20px auto;
+  margin-bottom: 20px;
+}
+
+#cardtext {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.card1 {
+  float: right;
+  margin-right: 200px;
+ }
+.card2 { 
+  float: left;
+  margin-left: 200px;
+ }
+
+#card {
+  background-color: rgb(116, 62, 83);
+  width: 200px;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.cardimage {
+  width: 100%;
+  height: 200px;
+}

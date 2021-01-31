@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+
+</head>
+
+
+
+<body>
+
+
+  <h1>Create an Account</h1>
+
+  <form action="/Register" method="POST">
+    <div>
+      <label>Email:</label><br>
+      <input type="email" id="email" name="email" /><br>
+    </div>
+
+    <div>
+      <label>Password:</label><br>
+      <input type="password" id="password" name="password"><br>
+    </div>
+
+    <div>
+      <label>Age:</label><br>
+      <select id="age" name="age">
+        <option value="default select age">Select Age</option>
+
+      </select>
+    </div>
+
+    <br>
+
+    <div>
+      <label>Tell us a little bit about yourself:</label><br>
+      <textarea rows="5" cols="50" name="comment" form="usrform"></textarea><br>
+    </div>
+
+    <div>
+      <input type="checkbox" id="agree" name="agree">I agree to the <a href="https://en.wikipedia.org/wiki/Terms_of_service"
+       target="_blank">terms of service</a>
+    </div>
+    
+    <br>
+
+    <div>
+      <input type="submit" value="submit here">
+    </div>
+
+  </form>
+
+
+</body>
+
+</html>
