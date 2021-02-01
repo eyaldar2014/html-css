@@ -1,0 +1,61 @@
+
+.container .a1{
+position: absolute;
+top: 45%;
+left: 40%;
+width: 10px;
+height: 10px;
+border-top: aqua solid 2px;
+border-left: aqua solid 2px;
+z-index: 2;
+}
+
+
+.container .a2{
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  width: 10px;
+  height: 10px;
+  border-top: aqua solid 2px;
+  border-right: aqua solid 2px;
+  z-index: 2;
+  }
+
+.container .a3{
+position: absolute;
+top: 55%;
+left: 40%;
+width: 10px;
+height: 10px;
+border-bottom: aqua solid 2px;
+border-left: aqua solid 2px;
+z-index: 2;
+}
+
+.container .a4{
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  width: 10px;
+  height: 10px;
+  border-bottom: aqua solid 2px;
+  border-right: aqua solid 2px;
+  z-index: 2;
+  }
+  
+  .container:after{
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    content: 'cool borDER';
+    font-size: 30px;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: violet;
+    justify-content: center;
+    align-items: center;
+  }
+  
