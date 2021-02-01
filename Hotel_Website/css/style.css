@@ -81,6 +81,7 @@ color: #333;
 
 .l-heading{
   font-size: 40px;
+  line-height: 1.2;
 }
 
 /* Padding */
@@ -101,7 +102,7 @@ color: #333;
 color: white;
 }
 
-#navbar h1{
+#navbar .logo{
   float: left;
   padding-top: 20px;
 }
@@ -115,7 +116,7 @@ color: white;
 float:left;
 }
 
-#navbar ul li a{
+#navbar ul li a {
   display: block;
   padding: 20px;
   text-align: center;
@@ -152,7 +153,7 @@ padding-top: 170px;
 
 /* Violin Info */
 #violin-info{
-  height: 400px;
+  height: 450px;
 }
 
 #violin-info .info-img{
@@ -240,7 +241,7 @@ min-height: 100%;
   border-radius: 50%;
 }
 
-/* Contact For */
+/* Contact Form */
 #contact-form .form-group{
   margin-bottom: 20px;
 }
