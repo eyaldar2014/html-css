@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: wheat;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  background-color: firebrick;
+  border-radius: 50%;
+}
+
+.one{
+  animation: well infinite 0.9s;
+}
+
+.two{
+  animation: well infinite 0.9s;
+  animation-delay: 0.3s;
+}
+
+.three{
+  animation: well infinite 0.9s;
+  animation-delay: 0.6s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes well{
+  30% { transform: translateY(-100px); }
+  60% { transform: translateY(0px); }
+}

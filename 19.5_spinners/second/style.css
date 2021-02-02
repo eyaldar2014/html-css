@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: tomato;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  background-color: turquoise;
+  border-radius: 50%;
+}
+
+.one{
+  animation: nice infinite 3s;
+}
+
+@keyframes nice{
+  50% { transform: background; 
+    background-color: blue; }
+}
+
+.two{
+  animation: nice infinite 3s;
+  animation-delay: 1s;
+}
+
+.three{
+  animation: nice infinite 3s;
+  animation-delay: 2s;
+}
