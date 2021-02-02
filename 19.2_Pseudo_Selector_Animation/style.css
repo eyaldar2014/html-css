@@ -1,0 +1,47 @@
+
+    *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    
+    :root{
+      --normal: 200px;
+    }
+
+    body{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      transition: 3s;
+      
+    }
+
+    .container{
+      position: relative;
+      width: 400px;
+      overflow: hidden;
+    }
+
+    .box{
+      height: var(--normal);
+      width: var(--normal);
+      background-color: violet;
+      transition: 3s;
+    }
+
+    .box:hover{
+      transform: translatex(200px);
+      background: red;
+    }
+    
+    .box:before{
+      content: '';
+      height: var(--normal);
+      width: var(--normal);
+      background-color: rgb(85, 63, 212);
+      position: absolute;
+      transform: translatex(200px);
+    }

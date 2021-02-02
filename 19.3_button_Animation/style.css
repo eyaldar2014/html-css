@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  width: 200px;
+  height: 100px;
+  border: black solid 2px;
+  text-align: center;
+  padding: 40px;
+  margin: 10px;
+  position: relative;
+  transition: 3s;
+  background-color: transparent;
+  z-index: 1;
+
+  overflow: hidden;
+}
+
+
+.box-1:before{
+  content: '';
+  position: absolute;
+  top: -200px;
+  left: 0;
+  width: 100px;
+  height: 200px;
+  background-color: brown;
+  transition: 3s;
+  z-index: -1;
+}
+
+.box-1:hover:before{
+  background-color: chartreuse;
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  transform: rotate(90deg);
+}
+
+.box-2::before{
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -200px;
+  width: 200px;
+  height: 100px;
+  background-color: brown;
+  transition: 3s;
+  z-index: -3;
+}
+
+.box-2:hover:before{
+  background-color: chartreuse;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box-3::before{
+  content: "YEAH!";
+  position: absolute;
+  top: -100px;
+  left: -2px;
+  width: 200px;
+  max-height: 100px;
+  background-color: brown;
+  transition: 1s;
+  padding: 40px 0;
+}
+
+.box-3:hover:before{
+  background-color: chartreuse;
+  position: absolute;
+  top: -1px;
+  left: -2px;
+}
+
+.box-4::before{
+  content: "SCALE&OPACITY";
+  position: absolute;
+  color: transparent;
+  font-size: 100px;
+  padding-top: 100px;
+  top: -100px;
+  left: -200px;
+  width: 800px;
+  height: 200px;
+  transition: 2s;
+  opacity: 1;
+}
+
+.box-4:hover:before{
+  font-size: 16px;
+  background-color: yellow;
+  color: aqua;
+  padding: 40px 0;
+  position: absolute;
+  width: 200px;
+  height: 30px;  
+  top: 0;
+  left: 0; 
+  opacity 1;
+}
