@@ -4,10 +4,24 @@
         margin: 0;
     }
     
+    :root{
+        --primary-color: rgb(131, 0, 0);
+        --secondary-color:  rgb(65, 18, 173);
+
+        --primary-font:  Arial, Helvetica, sans-serif;
+        --medium-font: 20px;
+        
+        --full-section: 100vh;
+        
+
+
+
+    }
+
     body {
-        height: 550px;
+        height: var(--full-section);
         margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: var(--primary-font);
         background-image: url(/images/screen_shot.png);
         background-position: center;
         background-repeat: no-repeat;
@@ -19,7 +33,7 @@
         float: center;
         color: white;
         text-align: center;
-        font-family: "Times New Roman", Times, serif;
+        font-family: var(--primary-font);
         line-height: 1.8;
         margin-top: 50px;
     }
@@ -29,38 +43,46 @@
     }
     
     .content {
-        max-width: 50%;
+        max-width: 10%;
         margin: 20px auto;
         margin-bottom: 20px;
+        height: 200px;
     }
     
     #cardtext {
         text-align: center;
         color: white;
-        font-size: 20px;
-        font-family: "Times New Roman", Times, serif;
+        font-size: var(--medium-font);
+        font-family: var(--primary-font);
         height: 50px;
         margin: 10px;
+    }
+        
+    #card {
+        background-color: rgb(116, 62, 83);
+        width: 20%;
+        height: 30%;
+        border-color: black;
+        border-style: solid;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-width: 5px;
+        position: relative;
     }
     
     .card1 {
         float: right;
+        left: -12%;
+        top: 150px;
         margin-right: 10%;
-        margin-bottom: 30px;
+        margin-bottom: 15%;
     }
     
     .card2 {
         float: left;
+        left: 12%;
+        top: 150px;
         margin-left: 10%;
-    }
-    
-    #card {
-        background-color: rgb(116, 62, 83);
-        width: 20%;
-        height: 50%;
-        border-color: black;
-        border-style: solid;
-        border-width: 5px;
     }
     
     .cardimage {
@@ -83,14 +105,14 @@
     }
     
     #australia:hover {
-        background-color: rgb(65, 18, 173);
+        background-color: var(--secondary-color);
     }
     /* nav_bar */
     
     ul {
         list-style-type: none;
         overflow: hidden;
-        background-color: rgb(100, 0, 0);
+        background-color: var(--primary-color);
     }
     
     li {
@@ -113,9 +135,9 @@
     .followme {
         background-color: rgb(0, 1, 46);
         margin-top: 20px;
-        font-size: 20px;
+        font-size: var(--medium-font);
         color: white;
         text-align: center;
-        font-family: "Times New Roman", Times, serif;
+        font-family: var(--primary-font);
         line-height: 1.3;
     }
