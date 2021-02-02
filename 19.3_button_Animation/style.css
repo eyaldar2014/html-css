@@ -85,7 +85,7 @@ body{
   left: -2px;
 }
 
-.box-4::before{
+.box-4::after{
   content: "SCALE&OPACITY";
   position: absolute;
   color: transparent;
@@ -96,18 +96,16 @@ body{
   width: 800px;
   height: 200px;
   transition: 2s;
-  opacity: 1;
 }
 
-.box-4:hover:before{
+.box-4:hover:after{
   font-size: 16px;
   background-color: yellow;
   color: aqua;
   padding: 40px 0;
   position: absolute;
   width: 200px;
-  height: 30px;  
+  height: 30px;
   top: 0;
   left: 0; 
-  opacity 1;
 }
