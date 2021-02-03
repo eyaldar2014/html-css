@@ -1,5 +1,5 @@
 /* Mobile */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   body {
     background-color: greenyellow;
   }
@@ -20,7 +20,7 @@
 }
 
 /* Tablet */
-@media only screen and (min-width: 376px) and (max-width: 768px) {
+@media only screen and (min-width: 501px) and (max-width: 768px) {
   body {
     background-color: pink;
   }
