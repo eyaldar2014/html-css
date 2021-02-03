@@ -1,0 +1,22 @@
+@media only screen and (max-width:500px){
+body{
+  background-color: palegreen;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2 ,auto);
+}
+
+.container :nth-child(15){
+  overflow: hidden;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 6;
+}
+
+.container :nth-child(16){
+  grid-column: 2 / span 1;
+  grid-row: 8 / span 6;
+}
+
+}
