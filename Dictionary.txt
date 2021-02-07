@@ -1,0 +1,59 @@
+dictionary
+
+* Git - versions system manager. open source. because of staged memory system, memorising any action, allowing full documanted history of project. allows sharing information fully.
+    * git brench - part of a code, as a graph, separated from the hall. for separating changes in parts of the code before affecting the entire project, or for certain reasons. allows simultaneously work, and seperate processes and allows efficiency diversity, free independent usage, and safe version managing.
+    * git add = staging area . before sizing into commit block.
+    * git commit - creating ready object to be pushed for the git file or system or server.
+* ————
+* media quaries - used for defining limit sizes for which css settings should be relevant . used “@media” property
+* Animation - tag - @keyframe {} - allows animate easily with css html objects. without JS. choosing speed, ryrhem, location properties for effect.
+    * transform - none. initial. inherit. X Y Z. rotate. scale. skew. matrix(n,n,n,n,n,n). 
+* ————
+* position- css location system for html elements. by top, bottom, left and right.
+    * static - default , by the page
+    * relative - by the page, can use as reference
+    * absolute - referenced by relative, closest relative. or page
+    * fixed - as absolute by first parent element - ***interesting
+    * sticky -   by page. stays at even with scrolling page. stays on top
+* grid - grid based layout system , same line with float and flex and position. efficient for rows/columns structure
+* flex - allows spread and position over column or row direction. 
+    * flex basis: 100 %, initial size, also 0. flex width size. 
+    * flex = 1 . can use for grow, shrink or equal to other flex items
+* ————
+* box model - html consideration: content* padding, border and margin. 
+* box-sizing: width and height calculation: initial, inherited. = content. = border box(including border and padding). 
+* selector - css way to specifically and precisely select html object - ****learn by myself
+* rf atributte - type of selector. choose html element by type, value and property.
+* ————
+* list - defined list system in html. can be modified. default is column with side marks.
+* table - html system to organise and control tabular data. with gaps, titles and flexible options.
+* link - a way to link html element to location such as internal section or a url.
+* button - html element that can be linked and clicked to activate. modification is wide.
+* navbar - a key word in html. allows defining navbar on top, or side, of a page. contain list, logo, and tytle. allows navigation in the website.. 
+* self closing tags - include info and properties inside, without closing tags. example: links, inputs, img..
+* ————
+* hamburger - representation of menu with hamburger symbol. can  open a sidebar element and be adjusted.
+* ————
+* token - encryption key for http data to being able to get the original readable contents 
+
+
+* 
+* over-flaw: hidden and more types
+* responsive /ity
+
+* semanthic html
+* module
+* stacking content -z index  -
+* display - all options (none, hidden…)… inline-block?
+* inputs
+* :root{ for variables}
+* pseudo element - definition and practice - before and after
+* meta tags - 
+* HTML - tag language. 
+
+
+* cmd: vim, touch, 
+* git log - 
+* script
+* section, div, span, main…
+* HTTP - 

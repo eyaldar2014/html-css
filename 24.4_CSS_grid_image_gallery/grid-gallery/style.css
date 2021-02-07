@@ -25,67 +25,60 @@ h1{
   margin: 0 auto;
 }
 
-
-
-
-.img-box{
-  background: no-repeat center center/cover;
-}
-
 .container .img-box:nth-child(1){
-  background: url('./images/gal-1.jpeg');
+  background: url('./images/gal-1.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(2){
-  background: url('./images/gal-2.jpeg');
+  background: url('./images/gal-2.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(3){
-  background: url('./images/gal-3.jpeg');
+  background: url('./images/gal-3.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(4){
-  background: url('./images/gal-4.jpeg');
+  background: url('./images/gal-4.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(5){
-  background: url('./images/gal-5.jpeg');
+  background: url('./images/gal-5.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(6){
-  background: url('./images/gal-6.jpeg');
+  background: url('./images/gal-6.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(7){
-  background: url('./images/gal-7.jpeg');
+  background: url('./images/gal-7.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(8){
-  background: url('./images/gal-8.jpeg');
+  background: url('./images/gal-8.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(9){
-  background: url('./images/gal-9.jpeg');
+  background: url('./images/gal-9.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(10){
-  background: url('./images/gal-10.jpeg');
+  background: url('./images/gal-10.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(11){
-  background: url('./images/gal-11.jpeg');
+  background: url('./images/gal-11.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(12){
-  background: url('./images/gal-12.jpeg');
+  background: url('./images/gal-12.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(13){
-  background: url('./images/gal-13.jpeg');
+  background: url('./images/gal-13.jpeg') no-repeat center center/cover;
 }
 
 .container .img-box:nth-child(14){
-  background: url('./images/gal-14.jpeg');
+  background: url('./images/gal-14.jpeg') no-repeat center center/cover;
 }
 
 .container :nth-child(15){
@@ -98,3 +91,6 @@ h1{
   grid-row: 4 / span 1;
 }
 
+.emptier {
+  display: none;
+}
